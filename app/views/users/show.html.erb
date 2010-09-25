@@ -1,0 +1,53 @@
+<p>
+  <b>Name:</b>
+  <%=h @user.name %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%=h @user.address %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%=h @user.city %>
+</p>
+
+<p>
+  <b>Country:</b>
+  <%=h @user.country %>
+</p>
+
+<p>
+  <b>Zipcode:</b>
+  <%=h @user.zipcode %>
+</p>
+
+<p>
+  <b>Phone:</b>
+  <%=h @user.phone %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%=h @user.email %>
+</p>
+
+<p>
+  <b>Salt:</b>
+  <%=h @user.salt %>
+</p>
+
+<p>
+  <b>Username:</b>
+  <%=h @user.username %>
+</p>
+
+<p>
+  <b>Password:</b>
+  <%=h @user.password %>
+</p>
+
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
